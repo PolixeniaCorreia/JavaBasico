@@ -2,9 +2,10 @@ package com.poli.cursojava.aula19.labs;
 
 import java.util.Scanner;
 
-public class Exerc07 {
+public class Exerc08 {
 
 	public static void main(String[] args) {
+		
 		Scanner scan = new Scanner(System.in);
 
 		int [] vA = new int [3];
@@ -23,7 +24,7 @@ public class Exerc07 {
 		}
 
 		for(int i = 0; i < vC.length; i++) {
-			vC[i] = vA[i] - vB[i];
+			vC[i] = vA[i] * vB[i];
 			System.out.println(vC[i] + " ");
 		}
 
@@ -45,6 +46,7 @@ public class Exerc07 {
 		for(int i = 0; i < vC.length; i++) {
 			System.out.print(vC[i] + " ");	
 		}
+		
 		System.out.println();
 
 	}
