@@ -1,9 +1,11 @@
-package com.poli.cursojava.aula25;
+package com.poli.cursojava.aula26;
+
+import com.poli.cursojava.aula26.Carro;
 
 public class TesteCarro {
 
 	public static void main(String[] args) {
-
+		
 		Carro van = new Carro();
 		
 		van.marca = "Fiat";
@@ -14,7 +16,14 @@ public class TesteCarro {
 
 		System.out.println(van.marca);
 		System.out.println(van.modelo);
+		
 		van.exibirAutonomia();
-
+		
+		double autonomia = van.obterAutonomia();
+		System.out.println("A autonomia do Carro é: " + autonomia);
+		System.out.println("A autonomia do Carro é: " + van.obterAutonomia());
+		
+		
 	}
+
 }
