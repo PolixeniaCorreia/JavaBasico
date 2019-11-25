@@ -1,6 +1,6 @@
-package com.poli.cursojava.aula41;
+package com.poli.cursojava.aula42;
 
-public abstract class Pessoa {
+public final class Pessoa {
 
 	private String nome;
 	private String endereco;
@@ -49,10 +49,7 @@ public abstract class Pessoa {
 	public void setTelefoneCelular(String telefoneCelular) {
 		this.telefoneCelular = telefoneCelular;
 	}
-	
-	public abstract String obterEtiquetaEndereco();
-	
-	public abstract void imprimirEtiquetaEndereco();
+
 	
 	
 }
