@@ -10,9 +10,7 @@ public class Excecao {
 			System.out.println("Antes da exception.");
 			
 			vetor[4] = 1;
-			
-			
-			
+	
 			
 		} catch (ArrayIndexOutOfBoundsException e) {
 			
@@ -20,16 +18,6 @@ public class Excecao {
 		}
 		
 		System.out.println("Esse texto será impresso.");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
