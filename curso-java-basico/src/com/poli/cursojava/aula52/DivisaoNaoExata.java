@@ -16,15 +16,4 @@ public class DivisaoNaoExata  extends Exception {
 		return "Resultado de " +num+  "/"  +dem+ "não é inteiro. ";
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
