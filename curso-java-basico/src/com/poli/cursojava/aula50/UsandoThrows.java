@@ -16,12 +16,7 @@ public class UsandoThrows {
 			System.out.println("Entrada Inválida.");
 			e.printStackTrace();	
 		}
-		
-		
-		
-		
-		
-
+	
 	}
 
 	public static double leNumero() throws Exception{
