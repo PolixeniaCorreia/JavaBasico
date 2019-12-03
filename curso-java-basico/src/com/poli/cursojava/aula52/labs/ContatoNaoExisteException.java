@@ -10,7 +10,7 @@ public class ContatoNaoExisteException extends Exception{
 	
 	@Override
 	public String getMessage() {
-		return "Contato " +nomeContato+ "não existe na agenda! ";
+		return "Contato " + nomeContato + " não existe na agenda! ";
 	}
 		
 }

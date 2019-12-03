@@ -8,14 +8,14 @@ public class Agenda {
 	
 	public Agenda() {
 		
-		contatos = new Contatos[5];
+		contatos = new Contatos[2];
 	}
 
 	public void adicionarContato(Contatos c) throws AgendaCheiaException {
 		
 		boolean cheia = true;
 		for( int i = 0; i < contatos.length; i++) {
-			if( contatos[i] != null) {
+			if( contatos[i] == null) {
 				contatos[i] = c;
 				cheia = false;
 				break;
@@ -42,7 +42,7 @@ public class Agenda {
 	
 	@Override
 	public String toString() {
-		return "Agenda [contatos=" + Arrays.toString(contatos) + "]";
+		return "Agenda [contatos=" + Arrays.toString(contatos) + "]\n";
 	}
 		
 }
